@@ -8,7 +8,7 @@
 
 
   
-  <h1 class="mkdf-tour-booking-title" style="font-size: 28px; color: #303030; font-weight: 700; line-height: 1.2em; margin: 30px 20px">
+  <h1 class="mkdf-tour-booking-title" style="font-size: 40px; color: #303030; font-weight: 700; line-height: 1.2em; margin: 30px 20px">
 			Подключиться к DOM.NET<a onclick="modalRegionSelectionShow();" style="border-bottom: 1px dotted #303030;"></a></h1>
 
 
@@ -98,7 +98,7 @@
 
 
 
-		<router-link to="#" class="button">Подключить</router-link>
+		<router-link to="#" class="alim">Подключить</router-link>
 
 
 
@@ -113,36 +113,52 @@
 
 <style >
 
-label {
-  width: 110px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 6px;
+html, body{
+    margin:0;
+    padding:0;
+    
 }
 
 
-.button {
-    margin-top: 10px ;
-    margin-left: 380px;
-box-shadow: 8px 8px 7px -2px #9f70c5;
+body {
+  margin: 0;
+}
+
+.mkdf-tour-booking-title{
+	text-align: center;
+}
+
+
+label {
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+}
+
+
+.alim {
+    margin-top: 20px ;
+    margin-left: 420px;
+box-shadow: 8px 8px 7px -2px #2a133c;
 	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
 	background-color:#7892c2;
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
-	color:#000000;
+	color:#f8f2f2;
 	font-family:Arial;
-	font-size:10px;
+	font-size:17px;
 	padding:17px 45px;
 	text-decoration:none;
 	text-shadow:0px 2px 0px #283966;
 }
 
-.button:hover {
-	background:linear-gradient(to bottom, #4d6d52 5%, #e60764 100%);
+.alim:hover {
+	background:linear-gradient(to bottom, #ced7cf 5%, #a4215850 100%);
 	background-color:#dcdfe4;
 }
-.button:active {
+.alim:active {
 	position:relative;
 	top:1px;
 }
@@ -150,42 +166,43 @@ box-shadow: 8px 8px 7px -2px #9f70c5;
 
 
 .familia{
-margin-left: 10%;
+margin-left: 5%;
 }
 .nama{
-margin-left: 10%;
+margin-left: 5%;
 }
 
 .ochestvo{
-margin-left: 10%;
+margin-left: 5%;
 }
 
 .telefon{
-margin-left: 10%;
+margin-left: 5%;
 }
 .ulicha{
-margin-left: 10%;
+margin-left: 5%;
 }
 
 .domm{
-margin-left: 10%;
+margin-left: 5%;
 }
 
 .kvartira {
-margin-left: 10%;
+margin-left: 56%;
 }
 
 
 .PPP{
-    width: 560px;
-    height: 350px;
+    width: 660px;
+    height: 850px;
      background-color: #a08cc0;
      border: 3px solid #fff; 
      border-radius: 20px; 
      display: inline-block;
-     padding: 12px;
+     padding: 17px;
      resize: vertical;
-
+     margin: 30px;
+	 left: 25%;
 }
 
 </style>
